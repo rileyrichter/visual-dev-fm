@@ -4,3 +4,7 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+.swiper {
+  overflow-x: hidden !important;
+  overflow-y: visible !important;
+}
