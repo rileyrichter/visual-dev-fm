@@ -5,6 +5,10 @@ const swiper = new Swiper(".swiper", {
   speed: 400,
   grabCursor: true,
   slidesPerGroup: 1,
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
 
   // If we need pagination
   pagination: {
