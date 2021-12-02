@@ -8,3 +8,11 @@
   overflow-x: hidden !important;
   overflow-y: visible !important;
 }
+
+.nav_dropdown {
+  -webkit-overflow-scrolling: touch;
+}
+.nav_mobile-back-wrap {
+  position: -webkit-sticky !important;
+  position: sticky !important;
+}
